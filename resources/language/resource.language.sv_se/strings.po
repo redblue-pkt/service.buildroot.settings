@@ -1,5 +1,5 @@
 # Kodi Media Center language file
-# Addon Name: @DISTRONAME@ Configuration
+# Addon Name: Buildroot Configuration
 # Addon id: service.libreelec.settings
 # Addon Provider: LibreELEC
 msgid ""
@@ -15,8 +15,8 @@ msgstr ""
 "X-Generator: Weblate 4.8\n"
 
 msgctxt "#600"
-msgid "@DISTRONAME@ Settings"
-msgstr "@DISTRONAME@-inställningar"
+msgid "Buildroot Settings"
+msgstr "Buildroot-inställningar"
 
 msgctxt "#601"
 msgid "Interface"
@@ -87,8 +87,8 @@ msgid "Configure updates"
 msgstr "Konfigurera uppdateringar"
 
 msgctxt "#710"
-msgid "Configure the Hostname of your @DISTRONAME@ system. This will be used for the HTPC \\\\hostname in Windows and SMB server name in the Mac OS Finder"
-msgstr "Ange värdnamnet för ditt @DISTRONAME@-system. Detta kommer användas för enhetems \\\\värnamn i Windows och SMB-servernamn i Mac OS Finder"
+msgid "Configure the Hostname of your Buildroot system. This will be used for the HTPC \\\\hostname in Windows and SMB server name in the Mac OS Finder"
+msgstr "Ange värdnamnet för ditt Buildroot-system. Detta kommer användas för enhetems \\\\värnamn i Windows och SMB-servernamn i Mac OS Finder"
 
 msgctxt "#711"
 msgid "Configure the 1st keyboard software layout"
@@ -103,8 +103,8 @@ msgid "Configure the physical keyboard type"
 msgstr "Konfigurera den fysiska tangentbordstypen"
 
 msgctxt "#714"
-msgid "@DISTRONAME@ can be configured for automatic or manual updates. Automatic updates are available on stable releases and stable release candidates. Automatic update self-disables on beta and development builds"
-msgstr "@DISTRONAME@ kan konfigureras för att uppdateras automatiskt eller manuellt. Automatiska uppdateringar är tillgängliga för stabila releaser samt releasekandidater. Automatiska uppdateringar är inte tillgängliga för beta- och utvecklarversioner."
+msgid "Buildroot can be configured for automatic or manual updates. Automatic updates are available on stable releases and stable release candidates. Automatic update self-disables on beta and development builds"
+msgstr "Buildroot kan konfigureras för att uppdateras automatiskt eller manuellt. Automatiska uppdateringar är tillgängliga för stabila releaser samt releasekandidater. Automatiska uppdateringar är inte tillgängliga för beta- och utvecklarversioner."
 
 msgctxt "#715"
 msgid "Set to ON and an on-screen notification will be displayed when a new update is available"
@@ -123,8 +123,8 @@ msgid "Set to ON to enable the Bluetooth service"
 msgstr "Välj PÅ för att aktivera Bluetooth tjänsten"
 
 msgctxt "#722"
-msgid "Create a tar archive containing all @DISTRONAME@ and Kodi configuration settings, databases and thumbnail content. Backup files will be stored in /storage/backup/"
-msgstr "Skapa ett tar-arkiv som innehåller alla @DISTRONAME@- och Kodi-inställningar, databaser och miniatyrbilder. Backupfilerna lagras i /storage/backup/"
+msgid "Create a tar archive containing all Buildroot and Kodi configuration settings, databases and thumbnail content. Backup files will be stored in /storage/backup/"
+msgstr "Skapa ett tar-arkiv som innehåller alla Buildroot- och Kodi-inställningar, databaser och miniatyrbilder. Backupfilerna lagras i /storage/backup/"
 
 msgctxt "#723"
 msgid "Restore a tar archive backup previously created using the backup option above"
@@ -133,18 +133,18 @@ msgstr "Återställer ett tidigare skapat tar-arkiv, som är skapad med backup-a
 msgctxt "#724"
 msgid ""
 "[COLOR FF00FF00]SOFT RESET[/COLOR]\n"
-"Permanently reset @DISTRONAME@ configuration to defaults (resets also Kodi to default including your library. your media - music/videos/etc are not touched)"
+"Permanently reset Buildroot configuration to defaults (resets also Kodi to default including your library. your media - music/videos/etc are not touched)"
 msgstr ""
 "[COLOR FF00FF00]MJUK ÅTERSTÄLLNING[/COLOR]\n"
-"Nollställer @DISTRONAME@-inställningar till standardinställningar (Nollställer även Kodi till standardinställningar inklusive bibliotek. Dina media såsom musik/videos/etc påverkas inte)"
+"Nollställer Buildroot-inställningar till standardinställningar (Nollställer även Kodi till standardinställningar inklusive bibliotek. Dina media såsom musik/videos/etc påverkas inte)"
 
 msgctxt "#725"
 msgid ""
 "[COLOR FFFF0000]HARD RESET[/COLOR]\n"
-"Permanently reset @DISTRONAME@ and Kodi configuration to defaults (everything in your storage partition will be deleted)"
+"Permanently reset Buildroot and Kodi configuration to defaults (everything in your storage partition will be deleted)"
 msgstr ""
 "[COLOR FFFF0000]HÅRD ÅTERSTÄLLNING[/COLOR]\n"
-"Nollställer @DISTRONAME@- och Kodi-inställningar till standardinställningar. (Allt som är lagrat i din storage-partition kommer att raderas!)"
+"Nollställer Buildroot- och Kodi-inställningar till standardinställningar. (Allt som är lagrat i din storage-partition kommer att raderas!)"
 
 msgctxt "#726"
 msgid "Enable or disable support for Wireless (WLAN) networks"
@@ -203,8 +203,8 @@ msgid "Set the password for Samba sharing"
 msgstr "Ange lösenordet för Samba-utdelning"
 
 msgctxt "#742"
-msgid "Set to ON to enable the embedded SSH server. The SSH console can be accessed with username 'root' and password '@ROOT_PASSWORD@'."
-msgstr "När inställningen är PÅ aktiveras inbyggd SSH server. SSH konsollen kan nås med användarnamnet 'root' och lösenordet '@ROOT_PASSWORD@'."
+msgid "Set to ON to enable the embedded SSH server. The SSH console can be accessed with username 'root' and password 'root'."
+msgstr "När inställningen är PÅ aktiveras inbyggd SSH server. SSH konsollen kan nås med användarnamnet 'root' och lösenordet 'root'."
 
 msgctxt "#743"
 msgid "Set to ON if you have copied private SSH keys to your HTPC and would like to improve security by disabling SSH username and password authentication."
@@ -223,12 +223,12 @@ msgid "Set the password for SSH"
 msgstr "Ställ in lösenord för SSH"
 
 msgctxt "#747"
-msgid "Enable a PIN for @DISTRONAME@ Settings access"
-msgstr "Aktivera PIN-kod för @DISTRONAME@-inställningar"
+msgid "Enable a PIN for Buildroot Settings access"
+msgstr "Aktivera PIN-kod för Buildroot-inställningar"
 
 msgctxt "#748"
-msgid "Change the PIN Lock for @DISTRONAME@ Settings access"
-msgstr "Ändra PIN-kodslås för åtkomst till @DISTRONAME@-inställningar"
+msgid "Change the PIN Lock for Buildroot Settings access"
+msgstr "Ändra PIN-kodslås för åtkomst till Buildroot-inställningar"
 
 msgctxt "#749"
 msgid "Overrride the Wireless Regulatory Domain so radio properties (channels and transmit power) comply with local laws or match the country configuration of your router."
@@ -239,8 +239,8 @@ msgid "750"
 msgstr "750"
 
 msgctxt "#751"
-msgid "With OBEX filetransfer you can send files, for example movies or pictures over bluetooth to @DISTRONAME@."
-msgstr "Med OBEX filöverföring kan du skicka filer, till exempel filmer eller bilder, via Bluetooth till @DISTRONAME@."
+msgid "With OBEX filetransfer you can send files, for example movies or pictures over bluetooth to Buildroot."
+msgstr "Med OBEX filöverföring kan du skicka filer, till exempel filmer eller bilder, via Bluetooth till Buildroot."
 
 msgctxt "#752"
 msgid "Here you can set the folder location where OBEX file transfer should store incoming files"
@@ -555,8 +555,8 @@ msgid "Edit"
 msgstr "Ändra"
 
 msgctxt "#32180"
-msgid "Would you like to update @DISTRONAME@ now?"
-msgstr "Vill du uppdatera @DISTRONAME@ nu?"
+msgid "Would you like to update Buildroot now?"
+msgstr "Vill du uppdatera Buildroot nu?"
 
 msgctxt "#32181"
 msgid "Filename"
@@ -607,12 +607,12 @@ msgid "PIN lock"
 msgstr "PIN-kodslås"
 
 msgctxt "#32193"
-msgid "Enable @DISTRONAME@ Settings PIN Lock"
-msgstr "Aktivera PIN-kodslås för @DISTRONAME@-inställningar"
+msgid "Enable Buildroot Settings PIN Lock"
+msgstr "Aktivera PIN-kodslås för Buildroot-inställningar"
 
 msgctxt "#32194"
-msgid "Change @DISTRONAME@ Settings PIN Lock"
-msgstr "Ändra inställningar för @DISTRONAME@ PIN-kodslås"
+msgid "Change Buildroot Settings PIN Lock"
+msgstr "Ändra inställningar för Buildroot PIN-kodslås"
 
 msgctxt "#32196"
 msgid "About"
@@ -731,24 +731,24 @@ msgid "Error - PIN codes did not match!"
 msgstr "Fel - PIN-koderna är olika!"
 
 msgctxt "#32229"
-msgid "@DISTRONAME@ Settings PIN lock not set.[CR][CR]Please try again."
-msgstr "@DISTRONAME@-inställningar för PIN-kodslås har inte uppdaterats.[CR][CR]Försök igen."
+msgid "Buildroot Settings PIN lock not set.[CR][CR]Please try again."
+msgstr "Buildroot-inställningar för PIN-kodslås har inte uppdaterats.[CR][CR]Försök igen."
 
 msgctxt "#32230"
-msgid "@DISTRONAME@ Settings PIN lock set."
-msgstr "@DISTRONAME@-inställningar för PIN-kodslås har uppdaterats."
+msgid "Buildroot Settings PIN lock set."
+msgstr "Buildroot-inställningar för PIN-kodslås har uppdaterats."
 
 msgctxt "#32231"
-msgid "Your @DISTRONAME@ Settings PIN lock has been set to:"
-msgstr "Dina @DISTRONAME@-inställningar för PIN-lås har satts till:"
+msgid "Your Buildroot Settings PIN lock has been set to:"
+msgstr "Dina Buildroot-inställningar för PIN-lås har satts till:"
 
 msgctxt "#32232"
 msgid "Error - PIN code not 4 digits!"
 msgstr "Fel: PIN-koden bestod inte av 4 siffror!"
 
 msgctxt "#32233"
-msgid "@DISTRONAME@ Settings Locked[CR]Enter 4 digit PIN"
-msgstr "@DISTRONAME@-inställningar är låsta[CR]Ange 4 siffrors PIN"
+msgid "Buildroot Settings Locked[CR]Enter 4 digit PIN"
+msgstr "Buildroot-inställningar är låsta[CR]Ange 4 siffrors PIN"
 
 msgctxt "#32234"
 msgid "Incorrect PIN!"
@@ -763,8 +763,8 @@ msgid "You have entered an incorrect PIN too many times.[CR][CR]You will need to
 msgstr "Du har angivit fel PIN-kod för många gånger.[CR][CR]Du kommer behöva vänta 5 minuter innan du kan försöka igen."
 
 msgctxt "#32237"
-msgid "@DISTRONAME@ Settings Locked!"
-msgstr "@DISTRONAME@-inställningar är låsta!"
+msgid "Buildroot Settings Locked!"
+msgstr "Buildroot-inställningar är låsta!"
 
 msgctxt "#32238"
 msgid "Time remaining before PIN can be entered: %02d:%02d[CR][CR]Too many previous failed attempts."
@@ -775,32 +775,32 @@ msgid "Wireless Regulatory Domain"
 msgstr "Wireless Regulatory Domain"
 
 msgctxt "#32300"
-msgid "Welcome to @DISTRONAME@"
-msgstr "Välkommern till @DISTRONAME@"
+msgid "Welcome to Buildroot"
+msgstr "Välkommern till Buildroot"
 
 msgctxt "#32301"
 msgid "Welcome"
 msgstr "Välkommen"
 
 msgctxt "#32302"
-msgid "This wizard will guide you through the process of setting up your new @DISTRONAME@ installation - setting your location, timezone and connecting you to the internet.[CR][CR]These settings can be changed later by navigating to Programs > @DISTRONAME@ Settings."
-msgstr "Denna guide kommer hjälpa dig att ställa in din nya @DISTRONAME@-installation - välj plats, tidszon och ansluter systemet till internet.[CR][CR]Dessa inställningar kan ändras senare genom att navigera till Program > @DISTRONAME@-inställningar."
+msgid "This wizard will guide you through the process of setting up your new Buildroot installation - setting your location, timezone and connecting you to the internet.[CR][CR]These settings can be changed later by navigating to Programs > Buildroot Settings."
+msgstr "Denna guide kommer hjälpa dig att ställa in din nya Buildroot-installation - välj plats, tidszon och ansluter systemet till internet.[CR][CR]Dessa inställningar kan ändras senare genom att navigera till Program > Buildroot-inställningar."
 
 msgctxt "#32303"
 msgid "Next"
 msgstr "Nästa"
 
 msgctxt "#32304"
-msgid "To be identified easily on the network, your new @DISTRONAME@ machine needs a name.[CR][CR]Try to choose something meaningful - like the room it's in - so you'll know what it is when you see it on the network.[CR][CR]This name is used when configuring network services, like file sharing using samba."
-msgstr "Genom att ge din nya @DISTRONAME@-maskin ett namn kan du enkelt identifiera den på ditt nätverk.[CR][CR]Försök att välja ett meningsfullt namn, såsom namnet på rummet, när du namnger den.[CR][CR]Namnet används sedan av nätverkstjänsterna såsom Samba."
+msgid "To be identified easily on the network, your new Buildroot machine needs a name.[CR][CR]Try to choose something meaningful - like the room it's in - so you'll know what it is when you see it on the network.[CR][CR]This name is used when configuring network services, like file sharing using samba."
+msgstr "Genom att ge din nya Buildroot-maskin ett namn kan du enkelt identifiera den på ditt nätverk.[CR][CR]Försök att välja ett meningsfullt namn, såsom namnet på rummet, när du namnger den.[CR][CR]Namnet används sedan av nätverkstjänsterna såsom Samba."
 
 msgctxt "#32305"
 msgid "Networking"
 msgstr "Nätverk"
 
 msgctxt "#32306"
-msgid "In order to download backdrops, banners and thumbnails for your movies and TV shows and to stream online content from sites like YouTube, @DISTRONAME@ needs to be connected the Internet.[CR][CR]An Internet connection is also required for @DISTRONAME@ to automatically update itself."
-msgstr "För att ladda ned bakgrundsbilder, banners och miniatyrer till dina TV-serier och filmer, samt kunna streama innehåll från tjänster som YouTube behöver @DISTRONAME@ en anslutning till Internet.[CR][CR]Internetanslutning krävs också för att @DISTRONAME@ automatiskt skall kunna uppdatera sig själv."
+msgid "In order to download backdrops, banners and thumbnails for your movies and TV shows and to stream online content from sites like YouTube, Buildroot needs to be connected the Internet.[CR][CR]An Internet connection is also required for Buildroot to automatically update itself."
+msgstr "För att ladda ned bakgrundsbilder, banners och miniatyrer till dina TV-serier och filmer, samt kunna streama innehåll från tjänster som YouTube behöver Buildroot en anslutning till Internet.[CR][CR]Internetanslutning krävs också för att Buildroot automatiskt skall kunna uppdatera sig själv."
 
 msgctxt "#32307"
 msgid "Previous"
@@ -823,12 +823,12 @@ msgid "Sharing and Remote Access"
 msgstr "Delning och fjärråtkomst"
 
 msgctxt "#32312"
-msgid "@DISTRONAME@ also supports SSH for remote access. This is for advanced users who wish to interact with @DISTRONAME@'s underlying operating system. The default user is [COLOR blue]root[/COLOR] and the default password is [COLOR blue]@ROOT_PASSWORD@[/COLOR]."
-msgstr "@DISTRONAME@ stödjer SSH för fjärranslutning. Detta är för avancerade användare som vill interagera med @DISTRONAME@'s underliggande operativsystem. Standars användarnamn är [COLOR blue]root[/COLOR] och standars lösenord är [COLOR blue]@ROOT_PASSWORD@[/COLOR]."
+msgid "Buildroot also supports SSH for remote access. This is for advanced users who wish to interact with Buildroot's underlying operating system. The default user is [COLOR blue]root[/COLOR] and the default password is [COLOR blue]root[/COLOR]."
+msgstr "Buildroot stödjer SSH för fjärranslutning. Detta är för avancerade användare som vill interagera med Buildroot's underliggande operativsystem. Standars användarnamn är [COLOR blue]root[/COLOR] och standars lösenord är [COLOR blue]root[/COLOR]."
 
 msgctxt "#32313"
-msgid "In order to share your files between your computers @DISTRONAME@ has incorporated a samba server. This samba server can be integrated into your local network by accessing it in a familiar way with Finder or Windows Explorer."
-msgstr "För att kunan dela filer mellan datorer har @DISTRONAME@ en integrerad Samba server. Detta kan du använda för att enkelt bläddra dig fram med Mac OS Finder eller Windows utforskare."
+msgid "In order to share your files between your computers Buildroot has incorporated a samba server. This samba server can be integrated into your local network by accessing it in a familiar way with Finder or Windows Explorer."
+msgstr "För att kunan dela filer mellan datorer har Buildroot en integrerad Samba server. Detta kan du använda för att enkelt bläddra dig fram med Mac OS Finder eller Windows utforskare."
 
 msgctxt "#32316"
 msgid "Configure Services:"
@@ -839,8 +839,8 @@ msgid "Thank you"
 msgstr "Tack!"
 
 msgctxt "#32318"
-msgid "Your @DISTRONAME@ installation is now complete and you are about to enter Kodi where you can set up your media libraries. For help with this, there is a guide available at wiki.kodi.tv[CR][CR]@DISTRONAME@ is developed by a dedicated team of developers who work purely in their spare time. Even as a volunteer project, we still have to pay for our internet bandwidth and development resources so if you find @DISTRONAME@ useful we will always appreciate a donation of any amount.[CR][CR]Finally, we hope you enjoy using @DISTRONAME@ as much as we've enjoyed building it. If you need any more help, you can find links to our support forum along with latest news at our website."
-msgstr "Din @DISTRONAME@-installation är slutförd och Kodi kommer strax starta, där du kan hantera dina mediebibliotek. Om du behöver mer hjälp med det finns det en guide på wiki.kodi.tv[CR][CR]@DISTRONAME@ är utvecklat av ett hängivet team utvecklare som ägnar sin fritid till projektet. Även om vi är ett volentärprojekt, måste vi betala för vår internetanslutning och andra utvecklingstjänster, så om du tycker att @DISTRONAME@ är användbart hoppas vi att du vill donera en valfri summa.[CR][CR]Slutligen hoppas vi att du tycker om att använda @DISTRONAME@ lika mycket som gillar att bygga det. Behöver du mer hjälp finns det nyhetsartiklar och länkar på vår webbplats."
+msgid "Your Buildroot installation is now complete and you are about to enter Kodi where you can set up your media libraries. For help with this, there is a guide available at wiki.kodi.tv[CR][CR]Buildroot is developed by a dedicated team of developers who work purely in their spare time. Even as a volunteer project, we still have to pay for our internet bandwidth and development resources so if you find Buildroot useful we will always appreciate a donation of any amount.[CR][CR]Finally, we hope you enjoy using Buildroot as much as we've enjoyed building it. If you need any more help, you can find links to our support forum along with latest news at our website."
+msgstr "Din Buildroot-installation är slutförd och Kodi kommer strax starta, där du kan hantera dina mediebibliotek. Om du behöver mer hjälp med det finns det en guide på wiki.kodi.tv[CR][CR]Buildroot är utvecklat av ett hängivet team utvecklare som ägnar sin fritid till projektet. Även om vi är ett volentärprojekt, måste vi betala för vår internetanslutning och andra utvecklingstjänster, så om du tycker att Buildroot är användbart hoppas vi att du vill donera en valfri summa.[CR][CR]Slutligen hoppas vi att du tycker om att använda Buildroot lika mycket som gillar att bygga det. Behöver du mer hjälp finns det nyhetsartiklar och länkar på vår webbplats."
 
 msgctxt "#32319"
 msgid "Cron"
@@ -859,8 +859,8 @@ msgid "Reset System Settings to defaults"
 msgstr "Återställer systeminställningar till standard"
 
 msgctxt "#32325"
-msgid "Reset @DISTRONAME@ to defaults"
-msgstr "Återställ @DISTRONAME@ till standard"
+msgid "Reset Buildroot to defaults"
+msgstr "Återställ Buildroot till standard"
 
 msgctxt "#32326"
 msgid "Are you sure?"
@@ -923,8 +923,8 @@ msgid "Check for updates now:"
 msgstr "Sök efter uppdateringar nu:"
 
 msgctxt "#32363"
-msgid "@DISTRONAME@"
-msgstr "@DISTRONAME@"
+msgid "Buildroot"
+msgstr "Buildroot"
 
 msgctxt "#32364"
 msgid "Update available"
@@ -1035,8 +1035,8 @@ msgid "** SAFE MODE! ** SAFE MODE! ** SAFE MODE! **"
 msgstr "** FELSÄKERT LÄGE! ** FELSÄKERT LÄGE **"
 
 msgctxt "#32394"
-msgid "@DISTRONAME@ has temporarily started in safe mode due to repeated Kodi crashes.[CR][CR]You may now investigate the cause of the crashes by enabling ssh or Samba.[CR][CR]Your original Kodi installation can be accessed via \"/storage/.kodi.FAILED\" and the Samba \"Kodi-Failed\" share.[CR][CR]Rebooting will return to your original Kodi installation.[CR][CR]Go to https://forum.libreelec.tv if you require further assistance. When posting to the forum include the link to your crash log which can be viewed by clicking the crash log option in Settings > LibreELEC > System > Submit Log."
-msgstr "@DISTRONAME@ har tillfälligt startat i felsäkert läge eftersom Kodi kraschat upprepade gånger.[CR][CR]Du kan undersöka vad som orsakat felen genom att sätta igång ssh eller Samba.[CR][CR]Din original- Kodi-installation kan kommas åt via \"/storage/.kodi.FAILED\" och genom Samba \"Kodi-Failed\" utdelning.[CR][CR]Starta om för att återgå till din original-Kodi-installation.[CR][CR]Besök https://forum.libreelec.tv om du behöver mer hjälp. När du postar i forumet kan du inkludera en länk till din crash-logg som du kan nå via crash-logg inställningarna under Inställningar > LibreELEC > System > Skicka logg."
+msgid "Buildroot has temporarily started in safe mode due to repeated Kodi crashes.[CR][CR]You may now investigate the cause of the crashes by enabling ssh or Samba.[CR][CR]Your original Kodi installation can be accessed via \"/storage/.kodi.FAILED\" and the Samba \"Kodi-Failed\" share.[CR][CR]Rebooting will return to your original Kodi installation.[CR][CR]Go to https://forum.libreelec.tv if you require further assistance. When posting to the forum include the link to your crash log which can be viewed by clicking the crash log option in Settings > LibreELEC > System > Submit Log."
+msgstr "Buildroot har tillfälligt startat i felsäkert läge eftersom Kodi kraschat upprepade gånger.[CR][CR]Du kan undersöka vad som orsakat felen genom att sätta igång ssh eller Samba.[CR][CR]Din original- Kodi-installation kan kommas åt via \"/storage/.kodi.FAILED\" och genom Samba \"Kodi-Failed\" utdelning.[CR][CR]Starta om för att återgå till din original-Kodi-installation.[CR][CR]Besök https://forum.libreelec.tv om du behöver mer hjälp. När du postar i forumet kan du inkludera en länk till din crash-logg som du kan nå via crash-logg inställningarna under Inställningar > LibreELEC > System > Skicka logg."
 
 msgctxt "#32395"
 msgid "Firewall"

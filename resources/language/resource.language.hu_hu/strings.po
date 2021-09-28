@@ -1,5 +1,5 @@
 # Kodi Media Center language file
-# Addon Name: @DISTRONAME@ Configuration
+# Addon Name: Buildroot Configuration
 # Addon id: service.libreelec.settings
 # Addon Provider: LibreELEC
 msgid ""
@@ -15,8 +15,8 @@ msgstr ""
 "X-Generator: Weblate 4.8\n"
 
 msgctxt "#600"
-msgid "@DISTRONAME@ Settings"
-msgstr "@DISTRONAME@ Beállítások"
+msgid "Buildroot Settings"
+msgstr "Buildroot Beállítások"
 
 msgctxt "#601"
 msgid "Interface"
@@ -87,8 +87,8 @@ msgid "Configure updates"
 msgstr "Frissítések beállításai"
 
 msgctxt "#710"
-msgid "Configure the Hostname of your @DISTRONAME@ system. This will be used for the HTPC \\\\hostname in Windows and SMB server name in the Mac OS Finder"
-msgstr "A te @DISTRONAME@ rendszeréhez tartozó host név beállítása. A HTPC \\\\hostname a Mac OS Finderben kerül felhasználásra, mint a Windows és SMB szerver neve."
+msgid "Configure the Hostname of your Buildroot system. This will be used for the HTPC \\\\hostname in Windows and SMB server name in the Mac OS Finder"
+msgstr "A te Buildroot rendszeréhez tartozó host név beállítása. A HTPC \\\\hostname a Mac OS Finderben kerül felhasználásra, mint a Windows és SMB szerver neve."
 
 msgctxt "#711"
 msgid "Configure the 1st keyboard software layout"
@@ -103,8 +103,8 @@ msgid "Configure the physical keyboard type"
 msgstr "Fizikai billentyűzet típusának beállítása"
 
 msgctxt "#714"
-msgid "@DISTRONAME@ can be configured for automatic or manual updates. Automatic updates are available on stable releases and stable release candidates. Automatic update self-disables on beta and development builds"
-msgstr "@DISTRONAME@ beállítható automatikus vagy kézi frissítésre. Az automatikus frissítés elérhető a stabil kiadásokon és a stabil kiadásra jelölt verziókon. Az automatikus frissítés automatikusan letiltásra kerül a béta és fejlesztői változatoknál."
+msgid "Buildroot can be configured for automatic or manual updates. Automatic updates are available on stable releases and stable release candidates. Automatic update self-disables on beta and development builds"
+msgstr "Buildroot beállítható automatikus vagy kézi frissítésre. Az automatikus frissítés elérhető a stabil kiadásokon és a stabil kiadásra jelölt verziókon. Az automatikus frissítés automatikusan letiltásra kerül a béta és fejlesztői változatoknál."
 
 msgctxt "#715"
 msgid "Set to ON and an on-screen notification will be displayed when a new update is available"
@@ -123,8 +123,8 @@ msgid "Set to ON to enable the Bluetooth service"
 msgstr "Kapcsold BE-re a Bluetooth engedélyezéséhez"
 
 msgctxt "#722"
-msgid "Create a tar archive containing all @DISTRONAME@ and Kodi configuration settings, databases and thumbnail content. Backup files will be stored in /storage/backup/"
-msgstr "tar archívum készítése a @DISTRONAME@ és a Kodi minden konfigurációs beállításairól, adatbázisairól és előnézeti képeiről. A mentés fájljai a /storage/backup/ könyvtárban kerül tárolásra."
+msgid "Create a tar archive containing all Buildroot and Kodi configuration settings, databases and thumbnail content. Backup files will be stored in /storage/backup/"
+msgstr "tar archívum készítése a Buildroot és a Kodi minden konfigurációs beállításairól, adatbázisairól és előnézeti képeiről. A mentés fájljai a /storage/backup/ könyvtárban kerül tárolásra."
 
 msgctxt "#723"
 msgid "Restore a tar archive backup previously created using the backup option above"
@@ -133,18 +133,18 @@ msgstr "Korábban, a fenti biztonsági mentés opcióval készített tar archív
 msgctxt "#724"
 msgid ""
 "[COLOR FF00FF00]SOFT RESET[/COLOR]\n"
-"Permanently reset @DISTRONAME@ configuration to defaults (resets also Kodi to default including your library. your media - music/videos/etc are not touched)"
+"Permanently reset Buildroot configuration to defaults (resets also Kodi to default including your library. your media - music/videos/etc are not touched)"
 msgstr ""
 "[COLOR FF00FF00]RÉSZLEGES VISSZAÁLLÍTÁS[/COLOR]\n"
-"@DISTRONAME@ konfigurációjának alaphelyzetbe állítása (szintén viszaállítja a Kodit is, beleértve az alapértelmezett könyvtáraid is. A médiumaidhoz - zenék/videók/stb nem nyúl)"
+"Buildroot konfigurációjának alaphelyzetbe állítása (szintén viszaállítja a Kodit is, beleértve az alapértelmezett könyvtáraid is. A médiumaidhoz - zenék/videók/stb nem nyúl)"
 
 msgctxt "#725"
 msgid ""
 "[COLOR FFFF0000]HARD RESET[/COLOR]\n"
-"Permanently reset @DISTRONAME@ and Kodi configuration to defaults (everything in your storage partition will be deleted)"
+"Permanently reset Buildroot and Kodi configuration to defaults (everything in your storage partition will be deleted)"
 msgstr ""
 "[COLOR FFFF0000]TELJES VISSZAÁLLÍTÁS[/COLOR]\n"
-"@DISTRONAME@ és a Kodi konfigurációjának végleges visszaállítása alapértelmezettre. (a tárolási particiónis minden törlésre kerül)"
+"Buildroot és a Kodi konfigurációjának végleges visszaállítása alapértelmezettre. (a tárolási particiónis minden törlésre kerül)"
 
 msgctxt "#726"
 msgid "Enable or disable support for Wireless (WLAN) networks"
@@ -203,8 +203,8 @@ msgid "Set the password for Samba sharing"
 msgstr "Samba megosztás jelszavának megadása"
 
 msgctxt "#742"
-msgid "Set to ON to enable the embedded SSH server. The SSH console can be accessed with username 'root' and password '@ROOT_PASSWORD@'."
-msgstr "Állíts ON-ra a beépített SSH szerver engedélyezéséhez. Az SH konzol 'root' felhasználóval érhető el, a jelszava: '@ROOT_PASSWORD@'."
+msgid "Set to ON to enable the embedded SSH server. The SSH console can be accessed with username 'root' and password 'root'."
+msgstr "Állíts ON-ra a beépített SSH szerver engedélyezéséhez. Az SH konzol 'root' felhasználóval érhető el, a jelszava: 'root'."
 
 msgctxt "#743"
 msgid "Set to ON if you have copied private SSH keys to your HTPC and would like to improve security by disabling SSH username and password authentication."
@@ -223,12 +223,12 @@ msgid "Set the password for SSH"
 msgstr "Jelszó beállítása SSH-ra"
 
 msgctxt "#747"
-msgid "Enable a PIN for @DISTRONAME@ Settings access"
-msgstr "Add meg PIN-kódot a @DISTRONAME@ beállításainak eléréséhez."
+msgid "Enable a PIN for Buildroot Settings access"
+msgstr "Add meg PIN-kódot a Buildroot beállításainak eléréséhez."
 
 msgctxt "#748"
-msgid "Change the PIN Lock for @DISTRONAME@ Settings access"
-msgstr "Változtasd meg a PIN-kódot a @DISTRONAME@ beállításainak eléréséhez."
+msgid "Change the PIN Lock for Buildroot Settings access"
+msgstr "Változtasd meg a PIN-kódot a Buildroot beállításainak eléréséhez."
 
 msgctxt "#749"
 msgid "Overrride the Wireless Regulatory Domain so radio properties (channels and transmit power) comply with local laws or match the country configuration of your router."
@@ -239,8 +239,8 @@ msgid "750"
 msgstr "750"
 
 msgctxt "#751"
-msgid "With OBEX filetransfer you can send files, for example movies or pictures over bluetooth to @DISTRONAME@."
-msgstr "Az OBEX fájlátvitellel fájlokat tudsz küldeni, például filmeket vagy képeket bluetooth-on keresztül ide: @DISTRONAME@."
+msgid "With OBEX filetransfer you can send files, for example movies or pictures over bluetooth to Buildroot."
+msgstr "Az OBEX fájlátvitellel fájlokat tudsz küldeni, például filmeket vagy képeket bluetooth-on keresztül ide: Buildroot."
 
 msgctxt "#752"
 msgid "Here you can set the folder location where OBEX file transfer should store incoming files"
@@ -555,8 +555,8 @@ msgid "Edit"
 msgstr "Szerkesztés"
 
 msgctxt "#32180"
-msgid "Would you like to update @DISTRONAME@ now?"
-msgstr "@DISTRONAME@ frissítése most?"
+msgid "Would you like to update Buildroot now?"
+msgstr "Buildroot frissítése most?"
 
 msgctxt "#32181"
 msgid "Filename"
@@ -607,12 +607,12 @@ msgid "PIN lock"
 msgstr "PIN Zár"
 
 msgctxt "#32193"
-msgid "Enable @DISTRONAME@ Settings PIN Lock"
-msgstr "Engedélyezze a @DISTRONAME@ beállítások PIN zárat"
+msgid "Enable Buildroot Settings PIN Lock"
+msgstr "Engedélyezze a Buildroot beállítások PIN zárat"
 
 msgctxt "#32194"
-msgid "Change @DISTRONAME@ Settings PIN Lock"
-msgstr "Változtasd meg a @DISTRONAME@ beállításokat PIN zárat"
+msgid "Change Buildroot Settings PIN Lock"
+msgstr "Változtasd meg a Buildroot beállításokat PIN zárat"
 
 msgctxt "#32196"
 msgid "About"
@@ -731,24 +731,24 @@ msgid "Error - PIN codes did not match!"
 msgstr "HIBA - PIN kódok nem egyeznek!"
 
 msgctxt "#32229"
-msgid "@DISTRONAME@ Settings PIN lock not set.[CR][CR]Please try again."
-msgstr "@DISTRONAME@ beállítások PIN-kód nincs beállítva.[CR][CR] Kérlek, próbálkozz újra."
+msgid "Buildroot Settings PIN lock not set.[CR][CR]Please try again."
+msgstr "Buildroot beállítások PIN-kód nincs beállítva.[CR][CR] Kérlek, próbálkozz újra."
 
 msgctxt "#32230"
-msgid "@DISTRONAME@ Settings PIN lock set."
-msgstr "@DISTRONAME@ beállítások PIN-kód beállítva."
+msgid "Buildroot Settings PIN lock set."
+msgstr "Buildroot beállítások PIN-kód beállítva."
 
 msgctxt "#32231"
-msgid "Your @DISTRONAME@ Settings PIN lock has been set to:"
-msgstr "A @DISTRONAME@ Beállítások PIN-kódja módosítva lett:"
+msgid "Your Buildroot Settings PIN lock has been set to:"
+msgstr "A Buildroot Beállítások PIN-kódja módosítva lett:"
 
 msgctxt "#32232"
 msgid "Error - PIN code not 4 digits!"
 msgstr "HIBA - PIN-kód nem 4 számjegyű!"
 
 msgctxt "#32233"
-msgid "@DISTRONAME@ Settings Locked[CR]Enter 4 digit PIN"
-msgstr "@DISTRONAME@ Beállítások zárolva [CR]Add meg a 4 jegyű PIN-kódot"
+msgid "Buildroot Settings Locked[CR]Enter 4 digit PIN"
+msgstr "Buildroot Beállítások zárolva [CR]Add meg a 4 jegyű PIN-kódot"
 
 msgctxt "#32234"
 msgid "Incorrect PIN!"
@@ -763,8 +763,8 @@ msgid "You have entered an incorrect PIN too many times.[CR][CR]You will need to
 msgstr "Túl sokszor adtál meg rossz PIN-kódot.[CR][CR]Várj 5 percet és utána újra próbálkozhatsz."
 
 msgctxt "#32237"
-msgid "@DISTRONAME@ Settings Locked!"
-msgstr "@DISTRONAME@ beállítások zárolva!"
+msgid "Buildroot Settings Locked!"
+msgstr "Buildroot beállítások zárolva!"
 
 msgctxt "#32238"
 msgid "Time remaining before PIN can be entered: %02d:%02d[CR][CR]Too many previous failed attempts."
@@ -775,32 +775,32 @@ msgid "Wireless Regulatory Domain"
 msgstr "Vezeték nélküli szabályozási tartomány"
 
 msgctxt "#32300"
-msgid "Welcome to @DISTRONAME@"
-msgstr "A @DISTRONAME@ üdvözöl!"
+msgid "Welcome to Buildroot"
+msgstr "A Buildroot üdvözöl!"
 
 msgctxt "#32301"
 msgid "Welcome"
 msgstr "Üdvözöljük!"
 
 msgctxt "#32302"
-msgid "This wizard will guide you through the process of setting up your new @DISTRONAME@ installation - setting your location, timezone and connecting you to the internet.[CR][CR]These settings can be changed later by navigating to Programs > @DISTRONAME@ Settings."
-msgstr "A varázsló végigvezet az új @DISTRONAME@ installáció beállítása során - tartózkodási helyed és időzónád beállítása és csatlakozás az internethez.[CR][CR]Ezek a beállítások késbőbb megváltoztathatóak, ha elnavigálsz a Programok > @DISTRONAME@ beállítások-hoz."
+msgid "This wizard will guide you through the process of setting up your new Buildroot installation - setting your location, timezone and connecting you to the internet.[CR][CR]These settings can be changed later by navigating to Programs > Buildroot Settings."
+msgstr "A varázsló végigvezet az új Buildroot installáció beállítása során - tartózkodási helyed és időzónád beállítása és csatlakozás az internethez.[CR][CR]Ezek a beállítások késbőbb megváltoztathatóak, ha elnavigálsz a Programok > Buildroot beállítások-hoz."
 
 msgctxt "#32303"
 msgid "Next"
 msgstr "következő"
 
 msgctxt "#32304"
-msgid "To be identified easily on the network, your new @DISTRONAME@ machine needs a name.[CR][CR]Try to choose something meaningful - like the room it's in - so you'll know what it is when you see it on the network.[CR][CR]This name is used when configuring network services, like file sharing using samba."
-msgstr "Ahhoz, hogy a hálózaton könnyen azonosítható legyen, az új @DISTRONAME@ gépednek szüksége van egy névre.[CR][CR]Próbálj valami értelmeset kiválasztani - például, hogy melyik szobában van - így tudni fogod, mi az, amikor látod a hálózaton.[CR][CR]Ezt a nevet használjuk a hálózati szolgáltatások beállításához, mint például a Samba file megosztás."
+msgid "To be identified easily on the network, your new Buildroot machine needs a name.[CR][CR]Try to choose something meaningful - like the room it's in - so you'll know what it is when you see it on the network.[CR][CR]This name is used when configuring network services, like file sharing using samba."
+msgstr "Ahhoz, hogy a hálózaton könnyen azonosítható legyen, az új Buildroot gépednek szüksége van egy névre.[CR][CR]Próbálj valami értelmeset kiválasztani - például, hogy melyik szobában van - így tudni fogod, mi az, amikor látod a hálózaton.[CR][CR]Ezt a nevet használjuk a hálózati szolgáltatások beállításához, mint például a Samba file megosztás."
 
 msgctxt "#32305"
 msgid "Networking"
 msgstr "Hálózat"
 
 msgctxt "#32306"
-msgid "In order to download backdrops, banners and thumbnails for your movies and TV shows and to stream online content from sites like YouTube, @DISTRONAME@ needs to be connected the Internet.[CR][CR]An Internet connection is also required for @DISTRONAME@ to automatically update itself."
-msgstr "Ahhoz, hogy háttereket, bannereket és előnézeti képeket tölthess le a moziflimjeidhez és TV sorozataidhoz és hogy online tartalm sugárzást nézhess olyan oldalakról, mint a YouTube, szükséges, hogy a @DISTRONAME@ csatlakozzon az internethez.[CR][CR]Szintén internetre van szükség ahhoz, hogy a @DISTRONAME@ automatikusan frissíthesse önmagát."
+msgid "In order to download backdrops, banners and thumbnails for your movies and TV shows and to stream online content from sites like YouTube, Buildroot needs to be connected the Internet.[CR][CR]An Internet connection is also required for Buildroot to automatically update itself."
+msgstr "Ahhoz, hogy háttereket, bannereket és előnézeti képeket tölthess le a moziflimjeidhez és TV sorozataidhoz és hogy online tartalm sugárzást nézhess olyan oldalakról, mint a YouTube, szükséges, hogy a Buildroot csatlakozzon az internethez.[CR][CR]Szintén internetre van szükség ahhoz, hogy a Buildroot automatikusan frissíthesse önmagát."
 
 msgctxt "#32307"
 msgid "Previous"
@@ -823,12 +823,12 @@ msgid "Sharing and Remote Access"
 msgstr "Megosztás és Távoli hozzáférés"
 
 msgctxt "#32312"
-msgid "@DISTRONAME@ also supports SSH for remote access. This is for advanced users who wish to interact with @DISTRONAME@'s underlying operating system. The default user is [COLOR blue]root[/COLOR] and the default password is [COLOR blue]@ROOT_PASSWORD@[/COLOR]."
-msgstr "A @DISTRONAME@ támogatja az SSH-t is a távoli hozzáféréshez. Tapasztalt felhasználók részére, akik a @DISTRONAME@ alatt futó operációs rendszert szeretnék elérni. Az alapértelmezett felhasználó a [COLOR blue]root[/COLOR], a jelszava pedig: [COLOR blue]@ROOT_PASSWORD@[/COLOR]."
+msgid "Buildroot also supports SSH for remote access. This is for advanced users who wish to interact with Buildroot's underlying operating system. The default user is [COLOR blue]root[/COLOR] and the default password is [COLOR blue]root[/COLOR]."
+msgstr "A Buildroot támogatja az SSH-t is a távoli hozzáféréshez. Tapasztalt felhasználók részére, akik a Buildroot alatt futó operációs rendszert szeretnék elérni. Az alapértelmezett felhasználó a [COLOR blue]root[/COLOR], a jelszava pedig: [COLOR blue]root[/COLOR]."
 
 msgctxt "#32313"
-msgid "In order to share your files between your computers @DISTRONAME@ has incorporated a samba server. This samba server can be integrated into your local network by accessing it in a familiar way with Finder or Windows Explorer."
-msgstr "Azért, hogy megoszthasd a fájljaidat, a @DISTRONAME@ tartalmaz egy beépített Samba szervert. Ez a Samba szerver beilleszthető a helyi hálózatodba és ismerős módon érhető el Finder-el vagy Windows Expolkorer-rel."
+msgid "In order to share your files between your computers Buildroot has incorporated a samba server. This samba server can be integrated into your local network by accessing it in a familiar way with Finder or Windows Explorer."
+msgstr "Azért, hogy megoszthasd a fájljaidat, a Buildroot tartalmaz egy beépített Samba szervert. Ez a Samba szerver beilleszthető a helyi hálózatodba és ismerős módon érhető el Finder-el vagy Windows Expolkorer-rel."
 
 msgctxt "#32316"
 msgid "Configure Services:"
@@ -839,8 +839,8 @@ msgid "Thank you"
 msgstr "Köszönjük!"
 
 msgctxt "#32318"
-msgid "Your @DISTRONAME@ installation is now complete and you are about to enter Kodi where you can set up your media libraries. For help with this, there is a guide available at wiki.kodi.tv[CR][CR]@DISTRONAME@ is developed by a dedicated team of developers who work purely in their spare time. Even as a volunteer project, we still have to pay for our internet bandwidth and development resources so if you find @DISTRONAME@ useful we will always appreciate a donation of any amount.[CR][CR]Finally, we hope you enjoy using @DISTRONAME@ as much as we've enjoyed building it. If you need any more help, you can find links to our support forum along with latest news at our website."
-msgstr "A @ DISTRONAME @ telepítése befejeződött, és hamarosan belép a Kodiba, ahol beállíthatja a médiakönyvtárakat. Ennek segítségére egy útmutató található a wiki.kodi.tv weboldalon. [CR][CR]@DISTRONAME@ egy fejlesztői dedikált csapat fejlesztette ki, aki tisztán szabadidejében dolgozik. Még önkéntes projektként is fizetnünk kell az internetes sávszélességünket és a fejlesztési erőforrásainkat, így ha a @DISTRONAME@ hasznosnak találod, mindig értékelünk bármilyen összegű adományt. [CR][CR] Végül reméljük, hogy élvezni fogod a @DISTRONAME@ használatát annyira, mint mi élveztük az építést. Ha további segítségre van szüksége, linkeket talál a támogatási fórumunkhoz és a legfrissebb híreket a weboldalunkon."
+msgid "Your Buildroot installation is now complete and you are about to enter Kodi where you can set up your media libraries. For help with this, there is a guide available at wiki.kodi.tv[CR][CR]Buildroot is developed by a dedicated team of developers who work purely in their spare time. Even as a volunteer project, we still have to pay for our internet bandwidth and development resources so if you find Buildroot useful we will always appreciate a donation of any amount.[CR][CR]Finally, we hope you enjoy using Buildroot as much as we've enjoyed building it. If you need any more help, you can find links to our support forum along with latest news at our website."
+msgstr "A @ DISTRONAME @ telepítése befejeződött, és hamarosan belép a Kodiba, ahol beállíthatja a médiakönyvtárakat. Ennek segítségére egy útmutató található a wiki.kodi.tv weboldalon. [CR][CR]Buildroot egy fejlesztői dedikált csapat fejlesztette ki, aki tisztán szabadidejében dolgozik. Még önkéntes projektként is fizetnünk kell az internetes sávszélességünket és a fejlesztési erőforrásainkat, így ha a Buildroot hasznosnak találod, mindig értékelünk bármilyen összegű adományt. [CR][CR] Végül reméljük, hogy élvezni fogod a Buildroot használatát annyira, mint mi élveztük az építést. Ha további segítségre van szüksége, linkeket talál a támogatási fórumunkhoz és a legfrissebb híreket a weboldalunkon."
 
 msgctxt "#32319"
 msgid "Cron"
@@ -859,8 +859,8 @@ msgid "Reset System Settings to defaults"
 msgstr "Rendszerbeállítások visszaállítása alaphelyzetbe"
 
 msgctxt "#32325"
-msgid "Reset @DISTRONAME@ to defaults"
-msgstr "@DISTRONAME@ visszaállítása alaphelyzetbe"
+msgid "Reset Buildroot to defaults"
+msgstr "Buildroot visszaállítása alaphelyzetbe"
 
 msgctxt "#32326"
 msgid "Are you sure?"
@@ -923,8 +923,8 @@ msgid "Check for updates now:"
 msgstr "Frissítések keresése most:"
 
 msgctxt "#32363"
-msgid "@DISTRONAME@"
-msgstr "@DISTRONAME@"
+msgid "Buildroot"
+msgstr "Buildroot"
 
 msgctxt "#32364"
 msgid "Update available"
@@ -1035,8 +1035,8 @@ msgid "** SAFE MODE! ** SAFE MODE! ** SAFE MODE! **"
 msgstr "** BIZTONSÁGOS MÓD! ** BIZTONSÁGOS MÓD! ** BIZTONSÁGOS MÓD! **"
 
 msgctxt "#32394"
-msgid "@DISTRONAME@ has temporarily started in safe mode due to repeated Kodi crashes.[CR][CR]You may now investigate the cause of the crashes by enabling ssh or Samba.[CR][CR]Your original Kodi installation can be accessed via \"/storage/.kodi.FAILED\" and the Samba \"Kodi-Failed\" share.[CR][CR]Rebooting will return to your original Kodi installation.[CR][CR]Go to https://forum.libreelec.tv if you require further assistance. When posting to the forum include the link to your crash log which can be viewed by clicking the crash log option in Settings > LibreELEC > System > Submit Log."
-msgstr "A @DISTRONAME@ átmenetileg biztonságos módban indult el a Kodi többszöri összeomlása miatt.[CR][CR]Kiderítheted az összeomlások okát úgy, hogy engedélyezed az ssh-t vagy a Sambat.[CR][CR]Az eredeti Kodi installációd elérhető a \"/storage/.kodi.FAILED\" könyvtárban és a \"Kodi-Failed\" Samba megosztáson.[CR][CR]Az újraindítás visszatér az eredeti Kodi telepítésedhez.[CR][CR]Látogass el a https://forum.libreelec.tv címre, ha további segítségre van szükséged. Amennyiben a fórumon írsz bejegyzést, tartalmazza a linket az összeomlási naplódhoz, mai a összeomlási napló opcióra kattintva érhető el itt: Beállítások > LibreELEC > Rendszer > Napló feltöltése."
+msgid "Buildroot has temporarily started in safe mode due to repeated Kodi crashes.[CR][CR]You may now investigate the cause of the crashes by enabling ssh or Samba.[CR][CR]Your original Kodi installation can be accessed via \"/storage/.kodi.FAILED\" and the Samba \"Kodi-Failed\" share.[CR][CR]Rebooting will return to your original Kodi installation.[CR][CR]Go to https://forum.libreelec.tv if you require further assistance. When posting to the forum include the link to your crash log which can be viewed by clicking the crash log option in Settings > LibreELEC > System > Submit Log."
+msgstr "A Buildroot átmenetileg biztonságos módban indult el a Kodi többszöri összeomlása miatt.[CR][CR]Kiderítheted az összeomlások okát úgy, hogy engedélyezed az ssh-t vagy a Sambat.[CR][CR]Az eredeti Kodi installációd elérhető a \"/storage/.kodi.FAILED\" könyvtárban és a \"Kodi-Failed\" Samba megosztáson.[CR][CR]Az újraindítás visszatér az eredeti Kodi telepítésedhez.[CR][CR]Látogass el a https://forum.libreelec.tv címre, ha további segítségre van szükséged. Amennyiben a fórumon írsz bejegyzést, tartalmazza a linket az összeomlási naplódhoz, mai a összeomlási napló opcióra kattintva érhető el itt: Beállítások > LibreELEC > Rendszer > Napló feltöltése."
 
 msgctxt "#32395"
 msgid "Firewall"

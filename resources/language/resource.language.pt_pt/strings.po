@@ -1,5 +1,5 @@
 # Kodi Media Center language file
-# Addon Name: @DISTRONAME@ Configuration
+# Addon Name: Buildroot Configuration
 # Addon id: service.libreelec.settings
 # Addon Provider: LibreELEC
 msgid ""
@@ -15,8 +15,8 @@ msgstr ""
 "X-Generator: Weblate 4.8\n"
 
 msgctxt "#600"
-msgid "@DISTRONAME@ Settings"
-msgstr "Configurações de @DISTRONAME@"
+msgid "Buildroot Settings"
+msgstr "Configurações de Buildroot"
 
 msgctxt "#601"
 msgid "Interface"
@@ -87,8 +87,8 @@ msgid "Configure updates"
 msgstr "Configurar atualizações"
 
 msgctxt "#710"
-msgid "Configure the Hostname of your @DISTRONAME@ system. This will be used for the HTPC \\\\hostname in Windows and SMB server name in the Mac OS Finder"
-msgstr "Configure o Hostname do seu sistema @DISTRONAME@. Ele será usado para o HTPC \\\\hostename no Windows e nome do servidor Samba no Mac OS Finder"
+msgid "Configure the Hostname of your Buildroot system. This will be used for the HTPC \\\\hostname in Windows and SMB server name in the Mac OS Finder"
+msgstr "Configure o Hostname do seu sistema Buildroot. Ele será usado para o HTPC \\\\hostename no Windows e nome do servidor Samba no Mac OS Finder"
 
 msgctxt "#711"
 msgid "Configure the 1st keyboard software layout"
@@ -103,7 +103,7 @@ msgid "Configure the physical keyboard type"
 msgstr "Configure o tipo de teclado físico"
 
 msgctxt "#714"
-msgid "@DISTRONAME@ can be configured for automatic or manual updates. Automatic updates are available on stable releases and stable release candidates. Automatic update self-disables on beta and development builds"
+msgid "Buildroot can be configured for automatic or manual updates. Automatic updates are available on stable releases and stable release candidates. Automatic update self-disables on beta and development builds"
 msgstr ""
 
 msgctxt "#715"
@@ -123,7 +123,7 @@ msgid "Set to ON to enable the Bluetooth service"
 msgstr ""
 
 msgctxt "#722"
-msgid "Create a tar archive containing all @DISTRONAME@ and Kodi configuration settings, databases and thumbnail content. Backup files will be stored in /storage/backup/"
+msgid "Create a tar archive containing all Buildroot and Kodi configuration settings, databases and thumbnail content. Backup files will be stored in /storage/backup/"
 msgstr ""
 
 msgctxt "#723"
@@ -133,13 +133,13 @@ msgstr "Restaurar cópia de segurança, em ficheiro tar, previamente criada, usa
 msgctxt "#724"
 msgid ""
 "[COLOR FF00FF00]SOFT RESET[/COLOR]\n"
-"Permanently reset @DISTRONAME@ configuration to defaults (resets also Kodi to default including your library. your media - music/videos/etc are not touched)"
+"Permanently reset Buildroot configuration to defaults (resets also Kodi to default including your library. your media - music/videos/etc are not touched)"
 msgstr ""
 
 msgctxt "#725"
 msgid ""
 "[COLOR FFFF0000]HARD RESET[/COLOR]\n"
-"Permanently reset @DISTRONAME@ and Kodi configuration to defaults (everything in your storage partition will be deleted)"
+"Permanently reset Buildroot and Kodi configuration to defaults (everything in your storage partition will be deleted)"
 msgstr ""
 
 msgctxt "#726"
@@ -199,7 +199,7 @@ msgid "Set the password for Samba sharing"
 msgstr "Definir a palavra passe para uma partilha Samba"
 
 msgctxt "#742"
-msgid "Set to ON to enable the embedded SSH server. The SSH console can be accessed with username 'root' and password '@ROOT_PASSWORD@'."
+msgid "Set to ON to enable the embedded SSH server. The SSH console can be accessed with username 'root' and password 'root'."
 msgstr ""
 
 msgctxt "#743"
@@ -219,11 +219,11 @@ msgid "Set the password for SSH"
 msgstr "Definir a palavra passe para SSH"
 
 msgctxt "#747"
-msgid "Enable a PIN for @DISTRONAME@ Settings access"
+msgid "Enable a PIN for Buildroot Settings access"
 msgstr ""
 
 msgctxt "#748"
-msgid "Change the PIN Lock for @DISTRONAME@ Settings access"
+msgid "Change the PIN Lock for Buildroot Settings access"
 msgstr ""
 
 msgctxt "#749"
@@ -235,7 +235,7 @@ msgid "750"
 msgstr "750"
 
 msgctxt "#751"
-msgid "With OBEX filetransfer you can send files, for example movies or pictures over bluetooth to @DISTRONAME@."
+msgid "With OBEX filetransfer you can send files, for example movies or pictures over bluetooth to Buildroot."
 msgstr ""
 
 msgctxt "#752"
@@ -551,8 +551,8 @@ msgid "Edit"
 msgstr "Editar"
 
 msgctxt "#32180"
-msgid "Would you like to update @DISTRONAME@ now?"
-msgstr "Gostaria de actualizar o @DISTRONAME@ agora?"
+msgid "Would you like to update Buildroot now?"
+msgstr "Gostaria de actualizar o Buildroot agora?"
 
 msgctxt "#32181"
 msgid "Filename"
@@ -603,11 +603,11 @@ msgid "PIN lock"
 msgstr ""
 
 msgctxt "#32193"
-msgid "Enable @DISTRONAME@ Settings PIN Lock"
+msgid "Enable Buildroot Settings PIN Lock"
 msgstr ""
 
 msgctxt "#32194"
-msgid "Change @DISTRONAME@ Settings PIN Lock"
+msgid "Change Buildroot Settings PIN Lock"
 msgstr ""
 
 msgctxt "#32196"
@@ -727,15 +727,15 @@ msgid "Error - PIN codes did not match!"
 msgstr ""
 
 msgctxt "#32229"
-msgid "@DISTRONAME@ Settings PIN lock not set.[CR][CR]Please try again."
+msgid "Buildroot Settings PIN lock not set.[CR][CR]Please try again."
 msgstr ""
 
 msgctxt "#32230"
-msgid "@DISTRONAME@ Settings PIN lock set."
+msgid "Buildroot Settings PIN lock set."
 msgstr ""
 
 msgctxt "#32231"
-msgid "Your @DISTRONAME@ Settings PIN lock has been set to:"
+msgid "Your Buildroot Settings PIN lock has been set to:"
 msgstr ""
 
 msgctxt "#32232"
@@ -743,7 +743,7 @@ msgid "Error - PIN code not 4 digits!"
 msgstr ""
 
 msgctxt "#32233"
-msgid "@DISTRONAME@ Settings Locked[CR]Enter 4 digit PIN"
+msgid "Buildroot Settings Locked[CR]Enter 4 digit PIN"
 msgstr ""
 
 msgctxt "#32234"
@@ -759,7 +759,7 @@ msgid "You have entered an incorrect PIN too many times.[CR][CR]You will need to
 msgstr ""
 
 msgctxt "#32237"
-msgid "@DISTRONAME@ Settings Locked!"
+msgid "Buildroot Settings Locked!"
 msgstr ""
 
 msgctxt "#32238"
@@ -771,15 +771,15 @@ msgid "Wireless Regulatory Domain"
 msgstr ""
 
 msgctxt "#32300"
-msgid "Welcome to @DISTRONAME@"
-msgstr "Bem-vindo a @DISTRONAME@"
+msgid "Welcome to Buildroot"
+msgstr "Bem-vindo a Buildroot"
 
 msgctxt "#32301"
 msgid "Welcome"
 msgstr "Bem-Vindo"
 
 msgctxt "#32302"
-msgid "This wizard will guide you through the process of setting up your new @DISTRONAME@ installation - setting your location, timezone and connecting you to the internet.[CR][CR]These settings can be changed later by navigating to Programs > @DISTRONAME@ Settings."
+msgid "This wizard will guide you through the process of setting up your new Buildroot installation - setting your location, timezone and connecting you to the internet.[CR][CR]These settings can be changed later by navigating to Programs > Buildroot Settings."
 msgstr ""
 
 msgctxt "#32303"
@@ -787,7 +787,7 @@ msgid "Next"
 msgstr "Seguinte"
 
 msgctxt "#32304"
-msgid "To be identified easily on the network, your new @DISTRONAME@ machine needs a name.[CR][CR]Try to choose something meaningful - like the room it's in - so you'll know what it is when you see it on the network.[CR][CR]This name is used when configuring network services, like file sharing using samba."
+msgid "To be identified easily on the network, your new Buildroot machine needs a name.[CR][CR]Try to choose something meaningful - like the room it's in - so you'll know what it is when you see it on the network.[CR][CR]This name is used when configuring network services, like file sharing using samba."
 msgstr ""
 
 msgctxt "#32305"
@@ -795,7 +795,7 @@ msgid "Networking"
 msgstr ""
 
 msgctxt "#32306"
-msgid "In order to download backdrops, banners and thumbnails for your movies and TV shows and to stream online content from sites like YouTube, @DISTRONAME@ needs to be connected the Internet.[CR][CR]An Internet connection is also required for @DISTRONAME@ to automatically update itself."
+msgid "In order to download backdrops, banners and thumbnails for your movies and TV shows and to stream online content from sites like YouTube, Buildroot needs to be connected the Internet.[CR][CR]An Internet connection is also required for Buildroot to automatically update itself."
 msgstr ""
 
 msgctxt "#32307"
@@ -819,11 +819,11 @@ msgid "Sharing and Remote Access"
 msgstr "Partilha e Acesso Remoto"
 
 msgctxt "#32312"
-msgid "@DISTRONAME@ also supports SSH for remote access. This is for advanced users who wish to interact with @DISTRONAME@'s underlying operating system. The default user is [COLOR blue]root[/COLOR] and the default password is [COLOR blue]@ROOT_PASSWORD@[/COLOR]."
+msgid "Buildroot also supports SSH for remote access. This is for advanced users who wish to interact with Buildroot's underlying operating system. The default user is [COLOR blue]root[/COLOR] and the default password is [COLOR blue]root[/COLOR]."
 msgstr ""
 
 msgctxt "#32313"
-msgid "In order to share your files between your computers @DISTRONAME@ has incorporated a samba server. This samba server can be integrated into your local network by accessing it in a familiar way with Finder or Windows Explorer."
+msgid "In order to share your files between your computers Buildroot has incorporated a samba server. This samba server can be integrated into your local network by accessing it in a familiar way with Finder or Windows Explorer."
 msgstr ""
 
 msgctxt "#32316"
@@ -835,7 +835,7 @@ msgid "Thank you"
 msgstr "Obrigado"
 
 msgctxt "#32318"
-msgid "Your @DISTRONAME@ installation is now complete and you are about to enter Kodi where you can set up your media libraries. For help with this, there is a guide available at wiki.kodi.tv[CR][CR]@DISTRONAME@ is developed by a dedicated team of developers who work purely in their spare time. Even as a volunteer project, we still have to pay for our internet bandwidth and development resources so if you find @DISTRONAME@ useful we will always appreciate a donation of any amount.[CR][CR]Finally, we hope you enjoy using @DISTRONAME@ as much as we've enjoyed building it. If you need any more help, you can find links to our support forum along with latest news at our website."
+msgid "Your Buildroot installation is now complete and you are about to enter Kodi where you can set up your media libraries. For help with this, there is a guide available at wiki.kodi.tv[CR][CR]Buildroot is developed by a dedicated team of developers who work purely in their spare time. Even as a volunteer project, we still have to pay for our internet bandwidth and development resources so if you find Buildroot useful we will always appreciate a donation of any amount.[CR][CR]Finally, we hope you enjoy using Buildroot as much as we've enjoyed building it. If you need any more help, you can find links to our support forum along with latest news at our website."
 msgstr ""
 
 msgctxt "#32319"
@@ -855,7 +855,7 @@ msgid "Reset System Settings to defaults"
 msgstr ""
 
 msgctxt "#32325"
-msgid "Reset @DISTRONAME@ to defaults"
+msgid "Reset Buildroot to defaults"
 msgstr ""
 
 msgctxt "#32326"
@@ -919,8 +919,8 @@ msgid "Check for updates now:"
 msgstr "Procure actualizações agora:"
 
 msgctxt "#32363"
-msgid "@DISTRONAME@"
-msgstr "@DISTRONAME@"
+msgid "Buildroot"
+msgstr "Buildroot"
 
 msgctxt "#32364"
 msgid "Update available"
@@ -1031,7 +1031,7 @@ msgid "** SAFE MODE! ** SAFE MODE! ** SAFE MODE! **"
 msgstr ""
 
 msgctxt "#32394"
-msgid "@DISTRONAME@ has temporarily started in safe mode due to repeated Kodi crashes.[CR][CR]You may now investigate the cause of the crashes by enabling ssh or Samba.[CR][CR]Your original Kodi installation can be accessed via \"/storage/.kodi.FAILED\" and the Samba \"Kodi-Failed\" share.[CR][CR]Rebooting will return to your original Kodi installation.[CR][CR]Go to https://forum.libreelec.tv if you require further assistance. When posting to the forum include the link to your crash log which can be viewed by clicking the crash log option in Settings > LibreELEC > System > Submit Log."
+msgid "Buildroot has temporarily started in safe mode due to repeated Kodi crashes.[CR][CR]You may now investigate the cause of the crashes by enabling ssh or Samba.[CR][CR]Your original Kodi installation can be accessed via \"/storage/.kodi.FAILED\" and the Samba \"Kodi-Failed\" share.[CR][CR]Rebooting will return to your original Kodi installation.[CR][CR]Go to https://forum.libreelec.tv if you require further assistance. When posting to the forum include the link to your crash log which can be viewed by clicking the crash log option in Settings > LibreELEC > System > Submit Log."
 msgstr ""
 
 msgctxt "#32395"
