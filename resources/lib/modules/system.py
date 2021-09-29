@@ -24,7 +24,7 @@ class system(modules.Module):
     ENABLED = False
     KERNEL_CMD = None
     XBMC_RESET_FILE = None
-    LIBREELEC_RESET_FILE = None
+    BUILDROOT_RESET_FILE = None
     KEYBOARD_INFO = None
     UDEV_KEYBOARD_INFO = None
     NOX_KEYBOARD_INFO = None
@@ -457,7 +457,7 @@ class system(modules.Module):
     @log.log_function()
     def reset_hard(self, listItem=None):
         if self.ask_sure_reset('Hard') == 1:
-            open(self.LIBREELEC_RESET_FILE, 'a').close()
+            open(self.BUILDROOT_RESET_FILE, 'a').close()
             oe.winOeMain.close()
             oe.xbmcm.waitForAbort(1)
             subprocess.call(['/usr/bin/systemctl', '--no-block', 'reboot'], close_fds=True)
@@ -505,7 +505,7 @@ class system(modules.Module):
                     log.log('Unable to determine free space available for backup.', log.DEBUG)
                     pass
                 self.backup_dlg = xbmcgui.DialogProgress()
-                self.backup_dlg.create('LibreELEC', oe._(32375))
+                self.backup_dlg.create('Buildroot', oe._(32375))
                 if not os.path.exists(self.BACKUP_DESTINATION):
                     os.makedirs(self.BACKUP_DESTINATION)
                 self.backup_file = f'{oe.timestamp()}.tar'
@@ -687,7 +687,7 @@ class system(modules.Module):
             else:
                 config_file = open(self.JOURNALD_CONFIG_FILE, 'w')
                 config_file.write("# SPDX-License-Identifier: GPL-2.0-or-later\n" +
-                                  "# Copyright (C) 2021-present Team LibreELEC (https://libreelec.tv)\n\n" +
+                                  "# Copyright (C) 2021-present Team Buildroot\n\n" +
                                   "# This file is generated automatically, don't modify.\n\n" +
                                   "[Journal]\n")
 

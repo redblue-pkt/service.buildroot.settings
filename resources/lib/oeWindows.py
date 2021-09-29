@@ -15,7 +15,7 @@ from threading import Thread
 
 xbmcDialog = xbmcgui.Dialog()
 
-__scriptid__ = 'service.libreelec.settings'
+__scriptid__ = 'service.buildroot.settings'
 __addon__ = xbmcaddon.Addon(id=__scriptid__)
 __cwd__ = __addon__.getAddonInfo('path')
 
@@ -285,19 +285,19 @@ class mainWindow(xbmcgui.WindowXMLDialog):
                         selectedItem.setProperty('value', xbmcKeyboard.getText())
                 elif strTyp == 'file':
                     xbmcDialog = xbmcgui.Dialog()
-                    returnValue = xbmcDialog.browse(1, 'LibreELEC.tv', 'files', '', False, False, '/')
+                    returnValue = xbmcDialog.browse(1, 'Buildroot', 'files', '', False, False, '/')
                     if returnValue != '' and returnValue != '/':
                         selectedItem.setProperty('value', str(returnValue))
                 elif strTyp == 'folder':
                     xbmcDialog = xbmcgui.Dialog()
-                    returnValue = xbmcDialog.browse(0, 'LibreELEC.tv', 'files', '', False, False, '/storage')
+                    returnValue = xbmcDialog.browse(0, 'Buildroot', 'files', '', False, False, '/root')
                     if returnValue != '' and returnValue != '/':
                         selectedItem.setProperty('value', str(returnValue))
                 elif strTyp == 'ip':
                     if strValue == '':
                         strValue = '0.0.0.0'
                     xbmcDialog = xbmcgui.Dialog()
-                    returnValue = xbmcDialog.numeric(3, 'LibreELEC.tv', strValue)
+                    returnValue = xbmcDialog.numeric(3, 'Buildroot', strValue)
                     if returnValue != '':
                         if returnValue == '0.0.0.0':
                             selectedItem.setProperty('value', '')
@@ -307,7 +307,7 @@ class mainWindow(xbmcgui.WindowXMLDialog):
                     if strValue == 'None' or strValue == '':
                         strValue = '0'
                     xbmcDialog = xbmcgui.Dialog()
-                    returnValue = xbmcDialog.numeric(0, 'LibreELEC.tv', strValue)
+                    returnValue = xbmcDialog.numeric(0, 'Buildroot', strValue)
                     if returnValue != '':
                         selectedItem.setProperty('value', returnValue)
                 elif strTyp == 'bool':
@@ -692,7 +692,7 @@ class wizard(xbmcgui.WindowXMLDialog):
                         xbmc.executebuiltin(f'InstallAddon({lang_new})')
                     oe.xbmcm.waitForAbort(0.5)
                     xbmc.executebuiltin('SendClick(10100,11)')
-                    oe.write_setting('libreelec', 'wizard_completed', 'True')
+                    oe.write_setting('buildroot', 'wizard_completed', 'True')
                     self.visible = False
                     self.close()
                     if lang_new:

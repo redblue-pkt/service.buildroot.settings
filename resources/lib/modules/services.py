@@ -541,8 +541,8 @@ class services(modules.Module):
         SSHchange = False
         newpwd = xbmcDialog.input(oe._(746))
         if newpwd:
-            if newpwd == "libreelec":
-                oe.execute('cp -fp /usr/cache/shadow /storage/.cache/shadow')
+            if newpwd == "buildroot":
+                # oe.execute('cp -fp /usr/cache/shadow /storage/.cache/shadow')
                 readout3 = "Retype password"
             else:
                 ssh = subprocess.Popen(["passwd"], shell=False, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, bufsize=0)

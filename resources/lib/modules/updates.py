@@ -401,7 +401,7 @@ class updates(modules.Module):
             if self.struct['update']['settings']['Build']['value'] != '':
                 self.update_file = self.update_json[self.struct['update']['settings']['Channel']['value']]['url'] + self.get_available_builds(self.struct['update']['settings']['Build']['value'])
                 message = f"{oe._(32188)}: {version}\n{oe._(32187)}: {self.struct['update']['settings']['Build']['value']}\n{oe._(32180)}"
-                answer = xbmcDialog.yesno('LibreELEC Update', message)
+                answer = xbmcDialog.yesno('Buildroot Update', message)
                 xbmcDialog = None
                 del xbmcDialog
                 if answer:

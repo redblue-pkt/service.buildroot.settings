@@ -7,7 +7,7 @@ import xbmc
 import socket
 import xbmcaddon
 
-__scriptid__ = 'service.libreelec.settings'
+__scriptid__ = 'service.buildroot.settings'
 __addon__ = xbmcaddon.Addon(id=__scriptid__)
 __cwd__ = __addon__.getAddonInfo('path')
 __media__ = f'{__cwd__}/resources/skins/Default/media'
@@ -15,8 +15,8 @@ _ = __addon__.getLocalizedString
 
 try:
     sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
-    sock.connect('/var/run/service.libreelec.settings.sock')
+    sock.connect('/var/run/service.build.settings.sock')
     sock.send(bytes('openConfigurationWindow', 'utf-8'))
     sock.close()
 except Exception as e:
-    xbmc.executebuiltin(f'Notification("LibreELEC", "{_(32390)}", 5000, "{__media__}/icon.png"')
+    xbmc.executebuiltin(f'Notification("Buildroot", "{_(32390)}", 5000, "{__media__}/icon.png"')

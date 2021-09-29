@@ -9,9 +9,9 @@ import os
 # Base
 ################################################################################
 
-XBMC_USER_HOME = os.environ.get('XBMC_USER_HOME', '/storage/.kodi')
-CONFIG_CACHE = os.environ.get('CONFIG_CACHE', '/storage/.cache')
-USER_CONFIG = os.environ.get('USER_CONFIG', '/storage/.config')
+XBMC_USER_HOME = os.environ.get('XBMC_USER_HOME', '/root/.kodi')
+CONFIG_CACHE = os.environ.get('CONFIG_CACHE', '/root/.cache')
+USER_CONFIG = os.environ.get('USER_CONFIG', '/root/.config')
 
 ################################################################################
 # Connamn Module
@@ -47,8 +47,8 @@ services = {
     'SAMBA_SMDB': '/usr/sbin/smbd',
     'D_SAMBA_WORKGROUP': 'WORKGROUP',
     'D_SAMBA_SECURE': '0',
-    'D_SAMBA_USERNAME': 'libreelec',
-    'D_SAMBA_PASSWORD': 'libreelec',
+    'D_SAMBA_USERNAME': 'root',
+    'D_SAMBA_PASSWORD': 'root',
     'D_SAMBA_MINPROTOCOL': 'SMB2',
     'D_SAMBA_MAXPROTOCOL': 'SMB3',
     'D_SAMBA_AUTOSHARE': '1',
@@ -88,9 +88,9 @@ updates = {
     'ENABLED': not os.path.exists('/dev/.update_disabled'),
     'UPDATE_REQUEST_URL': 'https://update.libreelec.tv/updates.php',
     'UPDATE_DOWNLOAD_URL': 'http://%s.libreelec.tv/%s',
-    'LOCAL_UPDATE_DIR': '/storage/.update/',
+    'LOCAL_UPDATE_DIR': '/root/.update/',
 
-    'RPI_FLASHING_TRIGGER': '/storage/.rpi_flash_firmware',
+    'RPI_FLASHING_TRIGGER': '/root/.rpi_flash_firmware',
     }
 
 about = {'ENABLED': True}

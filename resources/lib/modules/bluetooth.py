@@ -427,7 +427,7 @@ class bluetooth(modules.Module):
 
     @log.log_function()
     def open_pinkey_window(self, runtime=60, title=32343):
-        self.pinkey_window = oeWindows.pinkeyWindow('service-LibreELEC-Settings-getPasskey.xml', oe.__cwd__, 'Default')
+        self.pinkey_window = oeWindows.pinkeyWindow('service-Buildroot-Settings-getPasskey.xml', oe.__cwd__, 'Default')
         self.pinkey_window.show()
         self.pinkey_window.set_title(oe._(title))
         self.pinkey_timer = pinkeyTimer(self, runtime)

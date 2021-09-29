@@ -6,7 +6,7 @@ import os_tools
 
 OS_RELEASE = os_tools.read_shell_settings('/etc/os-release')
 
-HOME = os.environ.get('HOME', '/storage')
+HOME = os.environ.get('HOME', '/root')
 XDG_CACHE_HOME = os.environ.get('XDG_CACHE_HOME', os.path.join(HOME, '.cache'))
 XDG_CONFIG_HOME = os.environ.get(
     'XDG_CONFIG_HOME', os.path.join(HOME, '.config'))

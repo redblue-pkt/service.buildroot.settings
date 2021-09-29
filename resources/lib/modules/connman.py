@@ -264,7 +264,7 @@ class connmanService(object):
 
     @log.log_function()
     def __init__(self, servicePath, oeMain):
-        self.winOeCon = oeWindows.mainWindow('service-LibreELEC-Settings-mainWindow.xml', oe.__cwd__, 'Default', oeMain=oe, isChild=True)
+        self.winOeCon = oeWindows.mainWindow('service-Buildroot-Settings-mainWindow.xml', oe.__cwd__, 'Default', oeMain=oe, isChild=True)
         self.servicePath = servicePath
         oe.dictModules['connmanNetworkConfig'] = self
         self.service_properties = dbus_connman.service_get_properties(servicePath)
@@ -375,7 +375,7 @@ class connman(modules.Module):
     ENABLED = False
     CONNMAN_DAEMON = None
     WAIT_CONF_FILE = None
-    NF_CUSTOM_PATH = "/storage/.config/iptables/"
+    NF_CUSTOM_PATH = "/root/.config/iptables/"
     connect_attempt = 0
     log_error = 1
     net_disconnected = 0
@@ -423,7 +423,7 @@ class connman(modules.Module):
                 'TetheringIdentifier': {
                     'order': 3,
                     'name': 32198,
-                    'value': 'LibreELEC-AP',
+                    'value': 'Buildroot-AP',
                     'action': 'set_technologie',
                     'type': 'text',
                     'parent': {

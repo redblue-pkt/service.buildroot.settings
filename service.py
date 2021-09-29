@@ -15,7 +15,7 @@ import xbmc
 
 class Service_Thread(threading.Thread):
 
-    SOCKET = '/var/run/service.libreelec.settings.sock'
+    SOCKET = '/var/run/service.buildroot.settings.sock'
 
     def __init__(self):
         threading.Thread.__init__(self)
@@ -34,7 +34,7 @@ class Service_Thread(threading.Thread):
 
     @log.log_function()
     def run(self):
-        if oe.read_setting('libreelec', 'wizard_completed') == None:
+        if oe.read_setting('buildroot', 'wizard_completed') == None:
             threading.Thread(target=oe.openWizard).start()
         while self.stopped == False:
             log.log(f'Waiting', log.INFO)
