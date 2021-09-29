@@ -15,7 +15,7 @@ _ = __addon__.getLocalizedString
 
 try:
     sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
-    sock.connect('/var/run/service.build.settings.sock')
+    sock.connect('/var/run/service.buildroot.settings.sock')
     sock.send(bytes('openConfigurationWindow', 'utf-8'))
     sock.close()
 except Exception as e:
