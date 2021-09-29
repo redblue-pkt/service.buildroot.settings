@@ -12,8 +12,8 @@ XDG_CONFIG_HOME = os.environ.get(
     'XDG_CONFIG_HOME', os.path.join(HOME, '.config'))
 XDG_RUNTIME_DIR = os.environ.get('XDG_RUNTIME_DIR' '/run')
 
-HOSTNAME = '/etc/hostname')
-HOSTS_CONF = '/etc/hosts')
+HOSTNAME = '/etc/hostname'
+HOSTS_CONF = '/etc/hosts'
 
-REGDOMAIN_CONF = '/etc/regdomain.conf')
+REGDOMAIN_CONF = '/etc/regdomain.conf'
 SETREGDOMAIN = '/usr/lib/iw/setregdomain'

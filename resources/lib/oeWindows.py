@@ -285,19 +285,19 @@ class mainWindow(xbmcgui.WindowXMLDialog):
                         selectedItem.setProperty('value', xbmcKeyboard.getText())
                 elif strTyp == 'file':
                     xbmcDialog = xbmcgui.Dialog()
-                    returnValue = xbmcDialog.browse(1, 'Buildroot', 'files', '', False, False, '/')
+                    returnValue = xbmcDialog.browse(1, 'Buildroot.tv', 'files', '', False, False, '/')
                     if returnValue != '' and returnValue != '/':
                         selectedItem.setProperty('value', str(returnValue))
                 elif strTyp == 'folder':
                     xbmcDialog = xbmcgui.Dialog()
-                    returnValue = xbmcDialog.browse(0, 'Buildroot', 'files', '', False, False, '/root')
+                    returnValue = xbmcDialog.browse(0, 'Buildroot.tv', 'files', '', False, False, '/root')
                     if returnValue != '' and returnValue != '/':
                         selectedItem.setProperty('value', str(returnValue))
                 elif strTyp == 'ip':
                     if strValue == '':
                         strValue = '0.0.0.0'
                     xbmcDialog = xbmcgui.Dialog()
-                    returnValue = xbmcDialog.numeric(3, 'Buildroot', strValue)
+                    returnValue = xbmcDialog.numeric(3, 'Buildroot.tv', strValue)
                     if returnValue != '':
                         if returnValue == '0.0.0.0':
                             selectedItem.setProperty('value', '')
@@ -307,7 +307,7 @@ class mainWindow(xbmcgui.WindowXMLDialog):
                     if strValue == 'None' or strValue == '':
                         strValue = '0'
                     xbmcDialog = xbmcgui.Dialog()
-                    returnValue = xbmcDialog.numeric(0, 'Buildroot', strValue)
+                    returnValue = xbmcDialog.numeric(0, 'Buildroot.tv', strValue)
                     if returnValue != '':
                         selectedItem.setProperty('value', returnValue)
                 elif strTyp == 'bool':
