@@ -79,9 +79,9 @@ system = {
         f'{XBMC_USER_HOME}/addons/temp',
         f'{XBMC_USER_HOME}/temp'
         ],
-    'BACKUP_DESTINATION': '/storage/backup/',
-    'RESTORE_DIR': '/storage/.restore/',
-    'JOURNALD_CONFIG_FILE': '/storage/.cache/journald.conf.d/00_settings.conf'
+    'BACKUP_DESTINATION': '/root/backup/',
+    'RESTORE_DIR': '/root/.restore/',
+    'JOURNALD_CONFIG_FILE': '/root/.cache/journald.conf.d/00_settings.conf'
     }
 
 updates = {
@@ -96,7 +96,7 @@ updates = {
 about = {'ENABLED': True}
 
 _services = {
-    'sshd': ['sshd.service'],
+    'sshd': ['dropbear.service'],
     'avahi': ['avahi-daemon.service'],
     'samba': ['nmbd.service', 'smbd.service'],
     'bluez': ['bluetooth.service'],
