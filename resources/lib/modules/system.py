@@ -187,28 +187,28 @@ class system(modules.Module):
                         },
                     },
                 },
-            'debug': {
-                'order': 9,
-                'name': 32376,
-                'settings': {
-                    'paste_system': {
-                        'name': 32377,
-                        'value': '0',
-                        'action': 'do_send_system_logs',
-                        'type': 'button',
-                        'InfoText': 718,
-                        'order': 1,
-                        },
-                    'paste_crash': {
-                        'name': 32378,
-                        'value': '0',
-                        'action': 'do_send_crash_logs',
-                        'type': 'button',
-                        'InfoText': 719,
-                        'order': 2,
-                        },
-                    },
-                },
+            # 'debug': {
+                # 'order': 9,
+                # 'name': 32376,
+                # 'settings': {
+                    # 'paste_system': {
+                        # 'name': 32377,
+                        # 'value': '0',
+                        # 'action': 'do_send_system_logs',
+                        # 'type': 'button',
+                        # 'InfoText': 718,
+                        # 'order': 1,
+                        # },
+                    # 'paste_crash': {
+                        # 'name': 32378,
+                        # 'value': '0',
+                        # 'action': 'do_send_crash_logs',
+                        # 'type': 'button',
+                        # 'InfoText': 719,
+                        # 'order': 2,
+                        # },
+                    # },
+                # },
             'journal': {
                 'order': 10,
                 'name': 32410,
