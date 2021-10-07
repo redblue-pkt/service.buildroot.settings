@@ -19,7 +19,7 @@ USER_CONFIG = os.environ.get('USER_CONFIG', '/root/.config')
 
 connman = {
     'CONNMAN_DAEMON': '/usr/sbin/connmand',
-    'WAIT_CONF_FILE': f'{CONFIG_CACHE}/libreelec/network_wait',
+    'WAIT_CONF_FILE': f'{CONFIG_CACHE}/buildroot/network_wait',
     'ENABLED': lambda : (True if os.path.exists(connman['CONNMAN_DAEMON']) and not os.path.exists('/dev/.kernel_ipconfig') else False),
     }
 connman['ENABLED'] = connman['ENABLED']()
@@ -32,7 +32,7 @@ bluetooth = {
     'BLUETOOTH_DAEMON': '/usr/lib/bluetooth/bluetoothd',
     'OBEX_DAEMON': '/usr/lib/bluetooth/obexd',
     'ENABLED': lambda : (True if os.path.exists(bluetooth['BLUETOOTH_DAEMON']) else False),
-    'D_OBEXD_ROOT': '/storage/downloads/',
+    'D_OBEXD_ROOT': '/ROOT/downloads/',
     }
 bluetooth['ENABLED'] = bluetooth['ENABLED']()
 
@@ -63,8 +63,8 @@ system = {
     'ENABLED': True,
     'KERNEL_CMD': '/proc/cmdline',
     'SET_CLOCK_CMD': '/sbin/hwclock --systohc --utc',
-    'XBMC_RESET_FILE': f'{CONFIG_CACHE}/reset_soft',
-    'LIBREELEC_RESET_FILE': f'{CONFIG_CACHE}/reset_hard',
+    'XBMC_RESET_FILE': f'{HOME}/.kodi/.soft_reset',
+    'BUILDROOT_RESET_FILE': f'{HOME}/.kodi/.hard_reset',
     'KEYBOARD_INFO': '/usr/share/X11/xkb/rules/base.xml',
     'UDEV_KEYBOARD_INFO': f'{CONFIG_CACHE}/xkb/layout',
     'NOX_KEYBOARD_INFO': '/usr/lib/keymaps',
