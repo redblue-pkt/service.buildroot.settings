@@ -298,6 +298,34 @@ msgctxt "#773"
 msgid "Set the idle timeout (in minutes) before devices will be disconnected (defaults to 0 for no timeout). Applies to devices where \"Enable Standby\" has been activated in the LibreELEC device connection context menu."
 msgstr ""
 
+msgctxt "#780"
+msgid "Configure hardware settings"
+msgstr "Konfiguruj ustawienia sprzętu"
+
+msgctxt "#781"
+msgid "Set fan mode (off/auto/manual)"
+msgstr "Ustaw tryb pracy wentylatora"
+
+msgctxt "#782"
+msgid "Set fan speed level"
+msgstr "Ustaw prędkość wentylatora"
+
+msgctxt "#783"
+msgid "Set CPU governor for all cores"
+msgstr "Ustaw zarządce procesora dla wszystkich rdzeni"
+
+msgctxt "#794"
+msgid "Enable/Disable HDD parking on power off/suspend"
+msgstr "Włącz/wyłącz parkowanie dysku twardego przy wyłączeniu/zawieszeniu"
+
+msgctxt "#795"
+msgid "Time in seconds to wait for the HDD to spin down when parking"
+msgstr "Czas w sekundach oczekiwania na wyłączenie dysku twardego podczas parkowania"
+
+msgctxt "#796"
+msgid "Time in minutes/hours until the HDD should enter suspend mode"
+msgstr "Czas w minutach/godzinach do przejścia dysku twardego w tryb wstrzymania"
+
 msgctxt "#32001"
 msgid "Services"
 msgstr "Usługi"
@@ -309,6 +337,10 @@ msgstr "System"
 msgctxt "#32003"
 msgid "Interface"
 msgstr "Interfejs"
+
+msgctxt "#32004"
+msgid "Hardware"
+msgstr "Sprzęt"
 
 msgctxt "#32005"
 msgid "Updates"
@@ -1070,6 +1102,14 @@ msgctxt "#32402"
 msgid "Backup is incomplete. An error occurred. See Kodi log for details."
 msgstr ""
 
+msgctxt "#32403"
+msgid "Performance"
+msgstr "Wydajność"
+
+msgctxt "#32404"
+msgid "HDD"
+msgstr "Twardy dysk"
+
 msgctxt "#32410"
 msgid "Logging"
 msgstr ""
@@ -1097,3 +1137,31 @@ msgstr ""
 msgctxt "#32416"
 msgid "Reboot to apply changes."
 msgstr ""
+
+msgctxt "#32420"
+msgid "Fan"
+msgstr "Wentylator"
+
+msgctxt "#32421"
+msgid "Fan Mode"
+msgstr "Tryb wentylatora"
+
+msgctxt "#32422"
+msgid "Speed Level"
+msgstr "Prędkość wentylatora"
+
+msgctxt "#32423"
+msgid "CPU governor"
+msgstr "Zarządca procesora"
+
+msgctxt "#32424"
+msgid "Parking"
+msgstr "Parkowanie"
+
+msgctxt "#32425"
+msgid "Parking Time"
+msgstr "Czas parkowania"
+
+msgctxt "#32426"
+msgid "Idle Time"
+msgstr "Czas bezczynności"
