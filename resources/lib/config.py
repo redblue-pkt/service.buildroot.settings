@@ -6,11 +6,8 @@ import os_tools
 
 OS_RELEASE = os_tools.read_shell_settings('/etc/os-release')
 
-HOME = os.environ.get('HOME', '/root')
-XDG_CACHE_HOME = os.environ.get('XDG_CACHE_HOME', os.path.join(HOME, '.cache'))
-XDG_CONFIG_HOME = os.environ.get(
-    'XDG_CONFIG_HOME', os.path.join(HOME, '.config'))
-XDG_RUNTIME_DIR = os.environ.get('XDG_RUNTIME_DIR' '/run')
+CONFIG_CACHE = os.environ.get('CONFIG_CACHE', '/root/.cache')
+USER_CONFIG = os.environ.get('USER_CONFIG', '/root/.config')
 
 HOSTNAME = '/etc/hostname'
 HOSTS_CONF = '/etc/hosts'
