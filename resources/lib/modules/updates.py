@@ -417,7 +417,8 @@ class updates(modules.Module):
             url = f'{url}/releases.json'
         data = oe.load_url(url)
         if not data is None:
-            update_json = json.loads(data)
+            
+            = json.loads(data)
         else:
             update_json = None
         return update_json
@@ -488,7 +489,7 @@ class updates(modules.Module):
         oe.dbg_log('updates::check_updates_v2', f'URL: {url}', oe.LOGDEBUG)
         update_json = oe.load_url(url)
         oe.dbg_log('updates::check_updates_v2', f'RESULT: {repr(update_json)}', oe.LOGDEBUG)
-        if update_json != '':
+        if update_json:
             update_json = json.loads(update_json)
             self.last_update_check = time.time()
             if 'update' in update_json['data'] and 'folder' in update_json['data']:
