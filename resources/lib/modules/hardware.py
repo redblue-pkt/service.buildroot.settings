@@ -13,7 +13,7 @@ import shutil
 import platform
 import random
 
-class hardware:
+class hardware(modules.Module):
     ENABLED = False
     need_inject = False
     check_for_reboot = False
