@@ -66,7 +66,6 @@ class bluetooth(modules.Module):
         },
     }
 
-    @log.log_function()
     def __init__(self, oeMain):
         super().__init__()
         self.oe = oeMain
