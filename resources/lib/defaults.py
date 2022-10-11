@@ -93,6 +93,8 @@ updates = {
     'RPI_FLASHING_TRIGGER': '/root/.rpi_flash_firmware',
     }
 
+hardware = {'ENABLED': True}
+
 about = {'ENABLED': True}
 
 _services = {
