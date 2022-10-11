@@ -417,8 +417,8 @@ class updates(modules.Module):
             url = f'{url}/releases.json'
         data = oe.load_url(url)
         if not data is None:
+            update_json = json.loads(data)
             
-            = json.loads(data)
         else:
             update_json = None
         return update_json
