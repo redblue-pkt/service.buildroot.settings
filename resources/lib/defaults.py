@@ -106,5 +106,5 @@ _services = {
     'obexd': ['obex.service'],
     'crond': ['cron.service'],
     'iptables': ['iptables.service'],
-    'ftp': ['proftpd.service'],
+    'ftpd': ['proftpd.service'],
     }
