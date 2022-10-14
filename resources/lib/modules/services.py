@@ -444,7 +444,7 @@ class services(modules.Module):
             state = 1
         else:
             state = 0
-        oe.set_service('proftpd', options, state)
+        oe.set_service('ftp', options, state)
         
     @log.log_function()
     def initialize_avahi(self, **kwargs):
