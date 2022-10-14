@@ -57,6 +57,7 @@ services = {
     'D_SSH_DISABLE_PW_AUTH': '0',
     'AVAHI_DAEMON': '/usr/sbin/avahi-daemon',
     'CRON_DAEMON': '/sbin/crond',
+    'FTP_DAEMON': '/usr/sbin/proftpd',
     }
 
 system = {
@@ -105,4 +106,5 @@ _services = {
     'obexd': ['obex.service'],
     'crond': ['cron.service'],
     'iptables': ['iptables.service'],
+    'ftp': ['proftpd.service'],
     }
