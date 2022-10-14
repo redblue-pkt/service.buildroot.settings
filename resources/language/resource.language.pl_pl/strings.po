@@ -326,6 +326,10 @@ msgctxt "#796"
 msgid "Time in minutes/hours until the HDD should enter suspend mode"
 msgstr "Czas w minutach/godzinach do przejścia dysku twardego w tryb wstrzymania"
 
+msgctxt "#797"
+msgid "Set to ON to enable the embedded FTP filesharing service"
+msgstr "Ustaw na WŁĄCZ, aby włączyć usługę wymiany plików FTP"
+
 msgctxt "#32001"
 msgid "Services"
 msgstr "Usługi"
@@ -654,6 +658,10 @@ msgctxt "#32198"
 msgid "SSID"
 msgstr "SSID"
 
+msgctxt "#32199"
+msgid "FTP"
+msgstr "FTP"
+
 msgctxt "#32200"
 msgid "Samba"
 msgstr "Samba"
@@ -805,6 +813,14 @@ msgstr ""
 msgctxt "#32240"
 msgid "Wireless Regulatory Domain"
 msgstr ""
+
+msgctxt "#32241"
+msgid "FTP"
+msgstr "FTP"
+
+msgctxt "#32242"
+msgid "Enable FTP"
+msgstr "Włącz FTP"
 
 msgctxt "#32300"
 msgid "Welcome to Buildroot"
