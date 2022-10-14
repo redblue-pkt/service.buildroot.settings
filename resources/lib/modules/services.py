@@ -353,7 +353,7 @@ class services(modules.Module):
             self.struct['ssh']['hidden'] = 'true'
         # FTP
         if os.path.isfile(self.FTP_DAEMON):
-            self.struct['ftp']['settings']['ftp_autostart']['value'] = oe.get_service_state('proftpd')
+            self.struct['ftp']['settings']['ftp_autostart']['value'] = oe.get_service_state('ftpd')
         else:
             self.struct['ftp']['hidden'] = 'true'
         # AVAHI
@@ -440,11 +440,11 @@ class services(modules.Module):
         if 'listItem' in kwargs:
             self.set_value(kwargs['listItem'])
         options = {}
-        if self.struct['samba']['settings']['samba_autostart']['value'] == '1':
+        if self.struct['ftp']['settings']['ftp_autostart']['value'] == '1':
             state = 1
         else:
             state = 0
-        oe.set_service('ftp', options, state)
+        oe.set_service('ftpd', options, state)
         
     @log.log_function()
     def initialize_avahi(self, **kwargs):
