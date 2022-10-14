@@ -29,6 +29,7 @@ class services(modules.Module):
     SSH_DAEMON = None
     D_SSH_DISABLE_PW_AUTH = None
     OPT_SSH_NOPASSWD = None
+    FTP_DAEMON = None
     AVAHI_DAEMON = None
     CRON_DAEMON = None
     menu = {'7': {
@@ -276,6 +277,22 @@ class services(modules.Module):
                         },
                     },
                 },
+            'ftp': {
+                'order': 7,
+                'name': 32241,
+                'not_supported': [],
+                'settings': {
+                    'ftp_autostart': {
+                        'order': 1,
+                        'name': 32242,
+                        'value': None,
+                        'action': 'initialize_ftp',
+                        'type': 'bool',
+                        'InfoText': 797,
+                        },
+                    },
+                },
+            
             }
 
     @log.log_function()
@@ -283,6 +300,7 @@ class services(modules.Module):
         self.load_values()
         self.initialize_samba(service=1)
         self.initialize_ssh(service=1)
+        self.initialize_ftp(service=1)
         self.initialize_avahi(service=1)
         self.initialize_cron(service=1)
         self.initialize_bluetooth(service=1)
@@ -333,6 +351,11 @@ class services(modules.Module):
                 self.struct['ssh']['settings']['ssh_autostart']['hidden'] = 'true'
         else:
             self.struct['ssh']['hidden'] = 'true'
+        # FTP
+        if os.path.isfile(self.FTP_DAEMON):
+            self.struct['ftp']['settings']['ftp_autostart']['value'] = oe.get_service_state('proftpd')
+        else:
+            self.struct['ftp']['hidden'] = 'true'
         # AVAHI
         if os.path.isfile(self.AVAHI_DAEMON):
             self.struct['avahi']['settings']['avahi_autostart']['value'] = oe.get_service_state('avahi')
@@ -412,6 +435,17 @@ class services(modules.Module):
             state = 0
         oe.set_service('sshd', options, state)
 
+    @log.log_function()
+    def initialize_ftp(self, **kwargs):
+        if 'listItem' in kwargs:
+            self.set_value(kwargs['listItem'])
+        options = {}
+        if self.struct['samba']['settings']['samba_autostart']['value'] == '1':
+            state = 1
+        else:
+            state = 0
+        oe.set_service('proftpd', options, state)
+        
     @log.log_function()
     def initialize_avahi(self, **kwargs):
         if 'listItem' in kwargs:
